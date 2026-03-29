@@ -20,7 +20,7 @@ An AI-powered Finance Expert System that helps users analyze their financial dat
 - Frontend: React.js
 - Routing: React Router
 - Styling: CSS / Custom UI
-- Backend: (Optional / Add if you have one)
+- Backend: ----
 
 ---
 
