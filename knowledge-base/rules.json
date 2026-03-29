@@ -1,0 +1,34 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "condition": "savings_rate < 0.1",
+      "recommendation": "Reduce expenses and increase savings",
+      "confidence": 0.9
+    },
+    {
+      "id": 2,
+      "condition": "debt_ratio > 0.4",
+      "recommendation": "Focus on paying off debts first",
+      "confidence": 0.85
+    },
+    {
+      "id": 3,
+      "condition": "savings_rate > 0.2 && risk === 'medium'",
+      "recommendation": "Invest in mutual funds (SIP)",
+      "confidence": 0.8
+    },
+    {
+      "id": 4,
+      "condition": "savings_rate > 0.25 && risk === 'high'",
+      "recommendation": "Consider equity or index funds for higher returns",
+      "confidence": 0.75
+    },
+    {
+      "id": 5,
+      "condition": "savings_rate < 0.2 && debt_ratio < 0.3",
+      "recommendation": "Create a monthly budget plan",
+      "confidence": 0.7
+    }
+  ]
+}
